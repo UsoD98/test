@@ -6,7 +6,7 @@ import {useSelector} from "react-redux";
 
 const BasicHeader = () => {
 
-    const host = `http://223.130.161.148:3000`
+    const host = `http://223.130.161.148:80`
 
     const loginState = useSelector(state => state.loginSlice)
 
