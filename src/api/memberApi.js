@@ -2,7 +2,7 @@ import {Form} from "react-router-dom";
 import axios from "axios";
 
 
-export const API_SERVER_HOST = "http://223.130.161.148:8080"
+export const API_SERVER_HOST = "http://localhost:8080"
 
 const host = `${API_SERVER_HOST}/api/member`
 
