@@ -55,7 +55,7 @@ function KakaoRedirectPage(props) {
         //             moveToPath("/login"); // 오류 발생 시 로그인 페이지로 이동
         //         });
         // });
-    }, [authCode, dispatch, error, moveToPath]);
+    }, [authCode]);
 
     return (
         <div>
