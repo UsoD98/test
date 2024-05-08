@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-export const API_SERVER_HOST = "https://www.codequest.site:8080"
+export const API_SERVER_HOST = "http://www.codequest.site:8080"
 
 const prefix = `${API_SERVER_HOST}/api/todo`
 
