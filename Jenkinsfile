@@ -16,7 +16,7 @@ pipeline {
             steps {
                 sh 'docker stop test || true'
                 sh 'docker rm test || true'
-                sh 'docker run -d -p 80:80 --name test test'
+                sh 'docker run -d -p 80:80 -p 443:443 --name test test'
             }
         }
     }
