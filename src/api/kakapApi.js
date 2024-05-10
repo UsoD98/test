@@ -3,7 +3,7 @@ import {API_SERVER_HOST} from "./memberApi";
 
 
 const rest_api_key = '03a5c2d0d9116827ce176c39db92aafa'
-const redirect_uri = 'https://223.130.161.148:3000/member/kakao'
+const redirect_uri = 'http://223.130.161.148:3000/member/kakao'
 
 const auth_code_path = 'https://kauth.kakao.com/oauth/authorize'
 
