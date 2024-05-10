@@ -2,7 +2,7 @@ import axios from "axios";
 import {API_SERVER_HOST} from "./memberApi";
 
 
-const rest_api_key = '\tdf8c115c5f22c80c763e0aaff0c48617'
+const rest_api_key = '03a5c2d0d9116827ce176c39db92aafa'
 const redirect_uri = 'http://223.130.161.148/member/kakao'
 
 const auth_code_path = 'https://kauth.kakao.com/oauth/authorize'
