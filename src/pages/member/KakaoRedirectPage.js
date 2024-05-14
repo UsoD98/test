@@ -25,15 +25,19 @@ function KakaoRedirectPage(props) {
                         console.log(memberInfo);
                         dispatch(login(memberInfo));
 
+                        // 로그인 성공 시 메인 페이지로 이동
                         if(memberInfo && memberInfo.social){
                             moveToPath("/")
-                        }else{
-                            moveToPath("/")
+                        }
+                        // 로그인 실패 시 로그인 페이지로 이동
+                        else{
+                            moveToPath("/member/login")
                         }
                     })
+                    // 로그인 실패 시 로그인 페이지로 이동
                     .catch(error => {
                         console.error("Error getting member info:", error);
-                        moveToPath("/") // 오류 발생 시 로그인 페이지로 이동
+                        moveToPath("/member/login");
                     });
             });
         }
